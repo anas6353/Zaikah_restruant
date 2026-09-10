@@ -9,7 +9,7 @@ export function Footer() {
         <div className="container-x py-3 flex flex-wrap items-center justify-center gap-3 text-sm">
           <CalendarDays className="h-4 w-4 text-ember" />
           <span className="uppercase tracking-[0.22em] text-xs text-cream/90">
-            Grand Opening · Friday, 26 July 2026
+            
           </span>
         </div>
       </div>

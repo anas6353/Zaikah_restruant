@@ -114,9 +114,6 @@ function Location() {
                       </li>
                     ))}
                   </ul>
-                  <p className="mt-3 text-xs text-muted-foreground">
-                    Hours begin from our Grand Opening on Friday, 26 July 2026.
-                  </p>
                 </div>
               </div>
             </div>

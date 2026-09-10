@@ -81,7 +81,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Zaikah is a family restaurant on Main Ferozepur Road, Lahore serving Pakistani BBQ, karahi, Chinese and fast food. Grand Opening Friday, 26 July 2026.",
+          "Zaikah is a family restaurant on Main Ferozepur Road, Lahore serving Pakistani BBQ, karahi, Chinese and fast food.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

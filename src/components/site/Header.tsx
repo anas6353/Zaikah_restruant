@@ -20,7 +20,7 @@ export function Header() {
         <div className="container-x flex items-center justify-between py-1.5 text-xs text-cream/70">
           <div className="flex items-center gap-2">
             <Truck className="h-3.5 w-3.5 text-ember" />
-            <span className="uppercase tracking-[0.2em] text-[10px]">We Deliver · Grand Opening Sun 26 July 2026</span>
+            <span className="uppercase tracking-[0.2em] text-[10px]">We Deliver </span>
           </div>
           <div className="flex items-center gap-4">
             <a

@@ -32,7 +32,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "A family kitchen on Ferozepur Road serving Pakistani BBQ, karahi, Chinese and fast food. Grand Opening Sunday, 26 July 2026.",
+          "A family kitchen on Ferozepur Road serving Pakistani BBQ, karahi, Chinese and fast food.",
       },
       { property: "og:title", content: "Zaikah — Flavor That Feels Like Home" },
       {
@@ -139,7 +139,7 @@ function Home() {
               {[
                 { k: "Cuisines", v: "4" },
                 { k: "Menu items", v: "100+" },
-                { k: "Opening", v: "26 Jul" },
+                
               ].map((s) => (
                 <div key={s.k}>
                   <div className="font-display text-3xl text-ember">{s.v}</div>
@@ -148,27 +148,6 @@ function Home() {
               ))}
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* GRAND OPENING STRIP */}
-      <section className="bg-wood text-cream border-y border-ember/20">
-        <div className="container-x py-8 md:py-10 flex flex-col md:flex-row items-start md:items-center gap-6 md:justify-between">
-          <div className="flex items-center gap-5">
-            <div className="grid h-14 w-14 shrink-0 place-items-center rounded-full bg-ember/15 text-ember">
-              <CalendarDays className="h-7 w-7" />
-            </div>
-            <div>
-              <div className="eyebrow">Save the date</div>
-              <div className="font-display text-2xl md:text-3xl mt-1">
-                Grand Opening · Sunday, 26 July 2026
-              </div>
-            </div>
-          </div>
-          <p className="max-w-md text-cream/70 text-sm md:text-base">
-            Doors open at noon. First plate of chargha on the house for the earliest fifty
-            families through the door. Bring everyone.
-          </p>
         </div>
       </section>
 

@@ -177,7 +177,6 @@ function OurStory() {
               { y: "2023", t: "The idea", b: "A conversation on a rooftop iftar. Someone said the neighbourhood needed a proper family place. Nobody disagreed." },
               { y: "2024", t: "The kitchen team", b: "We brought in cooks who trained on karahis and tandoors long before we ever put a menu together." },
               { y: "2025", t: "The recipes", b: "Nine months of tasting. Some dishes cut. The masala for the biryani got remade four times." },
-              { y: "2026", t: "Grand Opening", b: "Doors open Friday, 26 July 2026 on Main Ferozepur Road, near the Ring Road Interchange." },
             ].map((m, i) => (
               <Reveal key={m.y} delay={i * 80}>
                 <div className="h-full rounded-2xl border border-border bg-card p-6">
